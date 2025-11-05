@@ -3,7 +3,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-
 # read .gph file and return directed graph
 def load_gph(filepath):
     G = nx.DiGraph()
